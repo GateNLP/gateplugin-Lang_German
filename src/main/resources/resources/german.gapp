@@ -1,12 +1,11 @@
 <gate.util.persistence.GateApplication>
   <urlList class="gate.util.persistence.CollectionPersistence">
     <localList>
-      <gate.util.persistence.PersistenceManager-URLHolder>
-        <urlString>$relpath$../../ANNIE</urlString>
-      </gate.util.persistence.PersistenceManager-URLHolder>
-      <gate.util.persistence.PersistenceManager-URLHolder>
-        <urlString>$relpath$../</urlString>
-      </gate.util.persistence.PersistenceManager-URLHolder>      
+      <gate.creole.Plugin-Maven>
+        <group>uk.ac.gate.plugins</group>
+        <artifact>annie</artifact>
+        <version>8.5-SNAPSHOT</version>
+      </gate.creole.Plugin-Maven>     
     </localList>
     <collectionType>java.util.ArrayList</collectionType>
   </urlList>
