@@ -93,12 +93,6 @@
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
                 <entry>
-                  <string>rulesURL</string>
-                  <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$../../ANNIE/resources/tokeniser/DefaultTokeniser.rules</urlString>
-                  </gate.util.persistence.PersistenceManager-URLHolder>
-                </entry>
-                <entry>
                   <string>encoding</string>
                   <string>UTF-8</string>
                 </entry>
@@ -140,18 +134,6 @@
                 <entry>
                   <string>encoding</string>
                   <string>UTF-8</string>
-                </entry>
-                <entry>
-                  <string>gazetteerListsURL</string>
-                  <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$../../ANNIE/resources/sentenceSplitter/gazetteer/lists.def</urlString>
-                  </gate.util.persistence.PersistenceManager-URLHolder>
-                </entry>
-                <entry>
-                  <string>transducerURL</string>
-                  <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$../../ANNIE/resources/sentenceSplitter/grammar/main.jape</urlString>
-                  </gate.util.persistence.PersistenceManager-URLHolder>
                 </entry>
               </localMap>
             </initParams>
@@ -490,12 +472,6 @@
             <initParams class="gate.util.persistence.MapPersistence">
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
               <localMap>
-                <entry>
-                  <string>definitionFileURL</string>
-                  <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$../../ANNIE/resources/othomatcher/listsNM.def</urlString>
-                  </gate.util.persistence.PersistenceManager-URLHolder>
-                </entry>
                 <entry>
                   <string>minimumNicknameLikelihood</string>
                   <double>0.5</double>

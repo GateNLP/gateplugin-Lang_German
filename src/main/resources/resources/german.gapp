@@ -307,12 +307,6 @@
                   <string>UTF-8</string>
                 </entry>
                 <entry>
-                  <string>definitionFileURL</string>
-                  <gate.util.persistence.PersistenceManager-URLHolder>
-                    <urlString>$relpath$../../ANNIE/resources/othomatcher/listsNM.def</urlString>
-                  </gate.util.persistence.PersistenceManager-URLHolder>
-                </entry>
-                <entry>
                   <string>organizationType</string>
                   <string>Organization</string>
                 </entry>
