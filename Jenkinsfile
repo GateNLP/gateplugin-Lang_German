@@ -27,9 +27,6 @@ pipeline {
                     findbugs canRunOnFailed: true, excludePattern: '**/gate/resources/**', failedNewAll: '0', pattern: '**/findbugsXml.xml', unstableNewAll: '0', useStableBuildAsReference: true
                     warnings canRunOnFailed: true, consoleParsers: [[parserName: 'Java Compiler (javac)']], defaultEncoding: 'UTF-8', excludePattern: "**/test/**", failedNewAll: '0', unstableNewAll: '0', useStableBuildAsReference: true
                 }
-                success {
-                    step([$class: 'JavadocArchiver', javadocDir: 'target/site/apidocs', keepAll: false])
-                }
             }
         }
         stage('Deploy') {
@@ -38,7 +35,7 @@ pipeline {
                 expression { currentBuild.result == "SUCCESS" }
             }
             steps {
-                sh 'mvn -e -Dmaven.test.skip=true source:jar javadoc:jar deploy'
+                sh 'mvn -e -Dmaven.test.skip=true deploy'
             }
         }
     }
