@@ -32,8 +32,6 @@ pipeline {
                 sh 'mvn -e -DskipTests site'
             }
             post {
-                always {
-                }
             }
         }
         stage('Deploy') {
