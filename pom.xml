@@ -17,7 +17,7 @@
 	<!-- this is the description of this plugin -->
 	<groupId>uk.ac.gate.plugins</groupId>
 	<artifactId>lang-german</artifactId>
-	<version>8.6-SNAPSHOT</version>
+	<version>8.5.1</version>
 	
 	<name>Language: German</name>
 	<description>Support for processing German documents</description>
