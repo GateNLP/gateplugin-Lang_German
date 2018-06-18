@@ -8,7 +8,7 @@
 		<groupId>uk.ac.gate</groupId>
 		<artifactId>gate-plugin-base</artifactId>
 		<!-- this should be the version of GATE you wish to build against -->
-		<version>8.5-SNAPSHOT</version>
+		<version>8.5</version>
 
 		<!-- this forces the parent to always be resolved from the repo -->
 		<relativePath></relativePath>
@@ -16,8 +16,8 @@
 
 	<!-- this is the description of this plugin -->
 	<groupId>uk.ac.gate.plugins</groupId>
-	<artifactId>lang-german-compat</artifactId>
-	<version>8.5-SNAPSHOT</version>
+	<artifactId>lang-german</artifactId>
+	<version>8.6-SNAPSHOT</version>
 	
 	<name>Language: German</name>
 	<description>Support for processing German documents</description>
